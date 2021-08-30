@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.connect {
+  padding: 54px 0 100px 0;
+  background-color: #2d3136;
+}
+.connect_message {
+  display: flex;
+  justify-content: center;
+  margin: 46px auto 50px auto;
+}
+.connect_label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #d7d7d7;
+}
+.connect_label span {
+  color: #d31f1f;
+}
+.connect_button {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 82px;
+}
+.container {
+  padding: 0 195px;
+}
+footer {
+  background-color: #2d3136;
+  padding: 40px 0;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo {
+  width: 210px;
+}
+.footer_social {
+  display: flex;
+  width: 128px;
+  justify-content: space-between;
+}
+.footer_icon {
+  background-image: url("../../assets/img/ellipse.svg");
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comments {
+  padding: 90px 0 115px 0;
+}
+.comments h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #37414e;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 71px;
+}
+.comments_name {
+  min-height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #4b596c;
+}
+.comments_content {
+  background: #e9eef3;
+  min-height: 288px;
+  padding: 10px;
+  margin-bottom: 53px;
+}
+.comments_mail {
+  margin-top: 47px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #6d737b;
+  word-wrap: break-word;
+}
+.comments_message {
+  margin-top: 39px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #6d737b;
+  word-wrap: break-word;
+}
+.item {
+  color: #e2eaf5;
+  font-size: 20px;
+}
+.input {
+  width: 100%;
+  height: 80px;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #2f3136;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0 26px;
+  margin-top: 17px;
+}
+.btn {
+  height: 80px;
+  width: 200px;
+}
+.btn p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 0;
+}

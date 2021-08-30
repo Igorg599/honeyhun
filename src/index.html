@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HoneyHunters</title>
+    <link rel=stylesheet href=assets/css/main.css>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="connect">
+      <div class="container">
+        <div><img src="assets//img/logo.svg" alt="logo" width="264px" /></div>
+        <div class="connect_message">
+          <img src="assets/img/message.svg" alt="message" />
+        </div>
+        <form>
+          <div class="row justify-content-between">
+            <div class="col-md-5">
+              <div class="connect_label">
+                Имя
+                <span>*</span>
+              </div>
+              <input type="text" class="input" required name="name" />
+              <div class="connect_label" style="margin-top: 60px">
+                E-mail
+                <span>*</span>
+              </div>
+              <input type="email" class="input" required name="email" />
+            </div>
+            <div class="col-md-5">
+              <div class="connect_label">
+                Комментарий
+                <span>*</span>
+              </div>
+              <textarea
+                class="input"
+                required
+                style="height: 285px; padding: 25px 26px"
+              ></textarea>
+              <div class="connect_button">
+                <button
+                  type="submit"
+                  class="btn btn-danger"
+                  style="border-radius: 10px"
+                >
+                  <p>Записать</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="comments">
+      <div class="container">
+        <h3>Выводим комментарии</h3>
+        <div class="row justify-content-start comments_cards"></div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer_content">
+          <img src="assets/img/logo.svg" alt="logo" class="footer_logo" />
+          <div class="footer_social">
+            <div class="footer_icon">
+              <img src="assets/img/vk.svg" alt="vk-logo" />
+            </div>
+            <div class="footer_icon">
+              <img src="assets/img/fb.svg" alt="vk-logo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
